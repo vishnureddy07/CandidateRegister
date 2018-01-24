@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="squareandcube.com.candidateregister.CandidateEducationalDetailsActivity">
+
+    <ScrollView
+        android:id="@+id/educationscroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimen_20dp"
+                android:text="@string/text_secondary_details"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_ssc_marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Secondary Marks"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:maxLength="4"
+                android:inputType="number"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_ssc_institute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="Institute Name"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_ssc_university"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="University Name"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_ssc_yearPassing"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="Year Of Passing"
+                android:maxLength="4"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimen_20dp"
+                android:text="@string/text_intermediate_details"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_inter_marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:maxLength="4"
+                android:hint="Intermediate Marks"
+                android:inputType="number"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_inter_institute"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="Intermediate Institute Name"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_inter_university"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="Intermediate University Name"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_inter_yearPassing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="Year Of Passing"
+                android:maxLength="4"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimen_20dp"
+                android:text="@string/text_graduation_details"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_graduation_marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="Graduation Marks"
+                android:maxLength="4"
+                android:inputType="number"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_graduation_institute"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="Graduation Institute Name"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_graduation_university"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="Graduation University Name"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_graduation_yearPassing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="Year Of Passing"
+                android:maxLength="4"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimen_20dp"
+                android:text="@string/text_postgraduation_details"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_postgraduation_marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:maxLength="4"
+                android:hint="Post Graduation Marks"
+                android:inputType="number"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_postgraduation_institute"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="PostGraduation Institute Name"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_postgraduation_university"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="PostGraduation University Name"/>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textinputedittext_postgraduation_yearPassing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="Year Of Passing"
+                android:maxLength="4"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dimen_20dp"
+                android:text="@string/text_educational_gaps"/>
+            <RadioGroup
+                android:id="@+id/yearGap_radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/zeroYear_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_0_years" />
+
+                <RadioButton
+                    android:id="@+id/oneYear_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_30dp"
+                    android:text="@string/text_1_year" />
+
+                <RadioButton
+                    android:id="@+id/twoYear_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_30dp"
+                    android:text="@string/text_2_year" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_save"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

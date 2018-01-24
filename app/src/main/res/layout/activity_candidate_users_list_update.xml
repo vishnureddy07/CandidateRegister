@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="squareandcube.com.candidateregister.CandidateUsersListUpdateActivity">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_first_name"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_first_name"
+                    android:textColor="@android:color/darker_gray" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_last_name"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_last_name"
+                    android:textColor="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/text_dob"
+                    android:textColor="@color/colorTextHint" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:drawableRight="@drawable/ic_date_picker"
+                    android:textColor="@android:color/darker_gray"
+                    android:text="@string/text_dob"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20dp"
+                    android:text="@string/text_mobile_no"
+                    android:textColor="@color/colorTextHint" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_mobile_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_mobile_no"
+                    android:textColor="@android:color/darker_gray" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_email"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_email"
+                    android:textColor="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_password"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_password"
+                    android:textColor="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_gender"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_gender"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:textColor="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_20dp"
+                    android:text="Secondary details"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_ssc_marks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_ssc_marks"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_ssc_institute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_institute_name"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_ssc_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_university_name"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_ssc_yearPassing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_year_of_passing"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_20dp"
+                    android:text="Intermediate details"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_inter_marks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_intermediate_marks"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_inter_institute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_intermediate_institute_name"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_inter_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_intermediate_university_name"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_inter_yearPassing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_year_of_passing"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_20dp"
+                    android:text="Graduation details"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_graduation_marks"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_graduation_marks"
+                    android:inputType="number"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_graduation_institute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_graduation_institute_name"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_graduation_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_graduation_university_name"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_graduation_yearPassing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_year_of_passing"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_20dp"
+                    android:text="PostGraduation details"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_postgraduation_marks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_post_graduation_marks"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_postgraduation_institute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_postgraduation_institute_name"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_postgraduation_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:text="@string/text_postgraduation_university_name"/>
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_postgraduation_yearPassing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_year_of_passing"
+                    android:singleLine="true"
+                    android:maxLength="4"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_20dp"
+                    android:text="Educational Gaps"/>\
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_educationalGaps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_year_gap"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_20dp"
+                    android:text="Average Marks"/>\
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textinputedittext_avg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_year_gap"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/button_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/button_save"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/button_save"
+                        android:layout_gravity="center"
+                        android:text="@string/text_edit" />
+
+                    <Button
+                        android:id="@+id/button_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/text_save"
+                        android:visibility="invisible"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

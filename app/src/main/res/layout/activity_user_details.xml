@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="squareandcube.com.candidateregister.UserDetailsActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_first_name"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <EditText
+                    android:id="@+id/display_first_name_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_first_name"
+                    android:textColor="@android:color/darker_gray" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_last_name"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <EditText
+                    android:id="@+id/display_last_name_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_last_name"
+                    android:textColor="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/text_dob"
+                    android:textColor="@color/colorTextHint" />
+
+                <EditText
+                    android:id="@+id/display_dob_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@android:color/darker_gray"
+                    android:text="@string/text_dob"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20dp"
+                    android:text="@string/text_mobile_no"
+                    android:textColor="@color/colorTextHint" />
+
+                <EditText
+                    android:id="@+id/display_mobile_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_mobile_no"
+                    android:textColor="@android:color/darker_gray" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_email"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <EditText
+                    android:id="@+id/display_email_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_email"
+                    android:textColor="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_password"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <EditText
+                    android:id="@+id/display_password_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_password"
+                    android:textColor="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/text_gender"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorTextHint" />
+
+                <EditText
+                    android:id="@+id/display_gender_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_gender"
+                    android:enabled="false"
+                    android:textColor="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_30dp"
+                    android:text="Secondary details"/>
+                <EditText
+                    android:id="@+id/display_ssc_marks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_ssc_marks"
+                    android:inputType="number"/>
+                <EditText
+                    android:id="@+id/display_ssc_institute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_institute_name"/>
+                <EditText
+                    android:id="@+id/display_ssc_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_university_name"/>
+                <EditText
+                    android:id="@+id/display_ssc_yearPassing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_year_of_passing"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_30dp"
+                    android:text="Intermediate details"/>
+                <EditText
+                    android:id="@+id/display_inter_marks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_intermediate_marks"
+                    android:inputType="number"/>
+                <EditText
+                    android:id="@+id/display_inter_institute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_intermediate_institute_name"/>
+                <EditText
+                    android:id="@+id/display_inter_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_intermediate_university_name"/>
+                <EditText
+                    android:id="@+id/display_inter_yearPassing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_year_of_passing"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_30dp"
+                    android:text="Graduation details"/>
+                <EditText
+                    android:id="@+id/display_graduation_marks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_graduation_marks"
+                    android:inputType="number"/>
+                <EditText
+                    android:id="@+id/display_graduation_institute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_graduation_institute_name"/>
+                <EditText
+                    android:id="@+id/display_graduation_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_graduation_university_name"/>
+                <EditText
+                    android:id="@+id/display_graduation_yearPassing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_year_of_passing"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_30dp"
+                    android:text="PostGraduation details"/>
+                <EditText
+                    android:id="@+id/display_postgraduation_marks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_post_graduation_marks"
+                    android:inputType="number"/>
+                <EditText
+                    android:id="@+id/display_postgraduation_institute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_postgraduation_institute_name"/>
+                <EditText
+                    android:id="@+id/display_postgraduation_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_postgraduation_university_name"/>
+                <EditText
+                    android:id="@+id/display_postgraduation_yearPassing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/text_year_of_passing"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_30dp"
+                    android:text="Educational Gaps"/>\
+
+                <EditText
+                    android:id="@+id/display_educationalGaps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_year_gap"
+                    android:enabled="false"
+                    android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_30dp"
+                    android:text="Average Marks"/>\
+
+                <EditText
+                    android:id="@+id/display_avg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_year_gap"
+                    android:enabled="false"
+                    android:inputType="number"/>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

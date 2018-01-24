@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 public class B1AndB3Activity extends AppCompatActivity {
 
+    //Edit the data from git
     String email;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
